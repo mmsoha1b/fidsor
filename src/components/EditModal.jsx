@@ -29,7 +29,7 @@ export default function EditModal() {
 
   return (
     <ModalLayout>
-      <div className='relative  border-black border-[1px] h-1/2 w-1/2 bg-white left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg'>
+      <div className='relative  border-black border-[1px] min-h-1/2 w-1/2 bg-white left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg'>
       {modals.confirmModalOpen && <ConfirmModal onOk = {handleSumbit}/>}
         <div className='w-full flex flex-col gap-4 items-center p-4'>
 
